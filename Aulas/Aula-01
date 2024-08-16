@@ -1,0 +1,15 @@
+Banco de dados FireBase no geral e no React
+https://firebase.google.com/?authuser=2&hl=pt-br
+
+
+Banco de dados 
+Hosting
+Storage
+Notificações push
+Hospedagem de sites e arquivos
+
+Funções 
+Authentication - Uma forma para o usuario fazer login ou algo do tipo
+Firestore DataBase - Banco de dados que atualiza sempre em tempo real
+Realtime DataBase - Banco de dados em tempo real mais rapido, porém, menos completo que o anterior
+Storage - Sistema de armazenamento do FireBase (ex: salvar foto, video, audio)
