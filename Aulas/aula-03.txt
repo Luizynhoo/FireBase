@@ -1,0 +1,13 @@
+Configurando o banco de dados 
+
+Para instalar:
+npm i firebase
+
+Buscar a sua chave no banco
+Criar o arquivo firebase
+    - Colar a sua chave 
+    - import o firebase e o fireStore
+     --inicializar o firebase : const firebaseapp = initializeApp(firebaseConfig);
+     --criar uma constante e armazenar o banco nela 
+     ---exporta-la : export { db };
+     --- importa-la para onde vc precisar
