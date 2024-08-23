@@ -1,0 +1,31 @@
+Entendo os funcionamentos
+
+Criar app, escolher entre ios || android || Web
+Escolher nome para registrar e será gerado a sua chave de acesso (apiKey)
+
+Cloud Firestore - Criar Banco de dados
+Escolher local que sera salvo (SP)
+Escolher a versão que vc utilizará
+
+Rules = regras que vc pode criar para o seu banco
+Indexes = ?
+Use =  Mostra  a movimentação do banco por gráficos
+
+Exemplos de funcionamento/estrutura do banco:
+
+-post (collection)
+--123 (doc)
+---titulo : Aprendendo FireBase
+---Autor: Luiz 
+
+
+-users (collection)
+--1 (doc)
+---nome: Luiz
+---idade: 19
+
+--2 (doc)
+---nome: Taina
+---idade: 22
+
+funcionamento por coleções 
