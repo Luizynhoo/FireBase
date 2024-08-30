@@ -1,0 +1,27 @@
+Praticando a utilização do banco de dados
+Tudo documentado em Praticando
+
+Aprendendo a salvar e buscar informações no banco de dados
+
+Forma de enviar o formulario com o mesmo id 
+
+//Deixando a função assíncrona para ter o mesmo tempo de resposta que o banco 
+async function handleAdd(){
+    //Criando um documento dentro do banco
+                  //(Banco, collection, doc)
+    await setDoc(doc(db, "posts", "12345"),{
+      //Areas
+      Titulo: titulo,
+      Autor: autor,
+    })
+    .then(() =>{
+      toast.success("Dados Registrados!")
+
+      // Limpar os campos após o sucesso
+      setTitulo('');
+      setAutor('');
+    })
+    .catch((error) =>{
+      toast.warn("GEROU ERRO" + error)
+    })
+  }

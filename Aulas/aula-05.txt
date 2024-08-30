@@ -1,0 +1,28 @@
+Trabalhando com listas 
+
+Aprendendo a manipular e criar listas 
+FireBase + React
+
+Utilizando getDocs para buscar mais de um post
+
+
+
+Forma utlizada na aula passada para buscar um post em especifico 
+  //Buscando o documento
+ const postRef = doc(db, "posts", "PVqBnebnTu9ml5ZmKO2u")
+
+ await getDoc(postRef)
+ //snapshot = acessar os dados
+  .then ((snapshot) => {
+                  //Nome da propriedade do banco no final
+    setAutor(snapshot.data().Autor)
+    setTitulo(snapshot.data().Titulo)
+    toast.success("Dados encotrados!")
+
+ })
+ .catch(() => {
+  toast.warn("Erro ao buscar esse arquivo")
+ })
+
+Nessa aula criei uma estrutura nova para buscar os posts, assim buscando todos os posts de uma pasta em especifico
+e aparecendo na tela como lista.
