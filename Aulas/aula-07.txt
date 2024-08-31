@@ -1,0 +1,8 @@
+Aprendendo a utilização do RealTime
+
+Momentos certos para a utilização dele
+
+Utilizando o UseEffect = para quando um componente for montando eu poder chamar o que eu quero pra fazer alguma coisa
+Utilizando tbm o OnSnapshot que faz com que tudo que envolve a aplicação do banco atualize em tempo real 
+
+obs: Não utilizar muito pois pesa a aplicação
