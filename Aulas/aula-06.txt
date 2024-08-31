@@ -1,0 +1,12 @@
+Editando conteudos
+(update)
+
+
+Utilizando o updateDoc 
+Tomar sempre cuidado com os nomes de tudo 
+
+
+Excluindo itens
+Utilizando o deleteDoc
+
+Deletando pelas id dos posts
