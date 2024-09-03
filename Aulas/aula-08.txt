@@ -1,0 +1,17 @@
+Autenticação de usuario 
+(Cadastro e senha)
+
+primeiro importar o sistema de autenticação e depois conecta-lo com o banco 
+Exporta-lo 
+importar para aplicação
+
+
+importar na aplicação esse sistema :
+import { createUserWithEmailAndPassword } from "firebase/auth";
+
+Após isso, criar uma estrutura que vc ira usar e adicioanar a funcionalidade createUserWithEmailAndPassword no botão de enviar
+OBS (modo de usar):
+createUserWithEmailAndPassword (AUTH, string do email, string da senha)
+
+Com then / cath criei uma forma de validar a senha caso ela seja fraca não ira cadastrar 
+e se caso o email for existente não ira cadastrar tbm
