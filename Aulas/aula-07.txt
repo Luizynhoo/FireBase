@@ -1,4 +1,5 @@
 Aprendendo a utilização do RealTime
+(para o código carregar em tempor real)
 
 Momentos certos para a utilização dele
 
