@@ -15,3 +15,48 @@ createUserWithEmailAndPassword (AUTH, string do email, string da senha)
 
 Com then / cath criei uma forma de validar a senha caso ela seja fraca não ira cadastrar 
 e se caso o email for existente não ira cadastrar tbm
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Login de usuaria
+
+Importar na aplicação = signInWithEmailAndPassword, para criar a funcionalidade do botão
+
+signInWithEmailAndPassword = sistema de login por email e senha
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Criando uma renderização condicional
+Quando o usuario estiver logado mostrar na tela
+
+Criei duas states 
+User = para identificar quando o usuario esta logado 
+UserDetails = detalhes do usuario 
+
+Setei as states dentro da função Login
+Ao criar a User deixar na condição falsa, para que quando o usuario logar retornar como true (setada dentro da função login)
+Details foi criada como objeto vazio e dentro de login adicionei as informações de usuario que eu queria
+
+
+Por fim criei a condição para o usuario:  
+      { user && (
+        <div>
+          <strong>Seja bem vindo(a)  (Você está logado!)</strong>
+          <span>ID: {userDetail.uid} - Email: {userDetail.email}</span>
+          <button onClick={fazerLogout}>Sair</button>
+        </div>
+      )}
+
+Criando o botão sair: 
+
+Importar signOut e adicionar a funcionalidade ao botão
+voltar o user(false) e Detail deixar o objeto vazio
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Mantendo o usuario logado
+
+Utilizando o useEffect para quando o componente estiver montado ele verificar se tem usuario logado
+E utilizar para ajudar nesse trabalho o onAuthStateChanged
+
+onAuthStateChanged = metodo de verificação de usuario
